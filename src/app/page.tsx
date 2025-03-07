@@ -1,8 +1,4 @@
-
-import { collection, getDocs } from "firebase/firestore";
-
 import Banner from "@/components/Banner";
-import NewsCard from "@/components/NewsCard";
 import NewsLetter from "@/components/NewsLetter";
 import NewsList from "@/components/NewsCard";
 import AllNews from "@/components/AllNews";

@@ -12,10 +12,9 @@ import {
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { usePathname } from "next/navigation";
 
 const Navbar = () => {
-  const pathname = usePathname();
+  
   const { data: session } = useSession(); // Get session data
 
   const [isMobileMenuOpen, SetIsMobileMenuOpen] = useState(false);
